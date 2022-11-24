@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { Product } from './../entities/product.entity';
 
 @Injectable()
-export class ProductsService {
+export class ProductService {
   private counterId = 1;
   private products: Product[] = [
     {
